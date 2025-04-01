@@ -1,0 +1,12 @@
+[Adblock Plus 2.0]
+! For minimizing tracking and traffic while maintaining minimal/optimal site functionality
+! Usage: In the settings of AdBlock Plus or another adblock plugin (not tested), add a personalized list using the raw url of this file
+! Grok
+||grok.com/rest/user-settings*
+||grok.com/rest/system-prompt/list*
+||grok.com/rest/subscriptions*
+||grok.com/monitoring*
+||grok.com/api/statsig/log_event*
+||assetsconfigcdn.org*
+||featureassets.org*
+||cloudflare-dns.com/dns-query*
